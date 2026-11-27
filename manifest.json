@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "obg.calendar",
+  "name": "Calendar",
+  "version": "1.0.0",
+  "author": "Omarchy",
+  "description": "Date/time label with a mini calendar popup",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Calendar",
+    "description": "Date and time with a mini calendar popup",
+    "category": "Time",
+    "allowMultiple": false
+  }
+}
